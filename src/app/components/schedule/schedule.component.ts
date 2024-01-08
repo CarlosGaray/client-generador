@@ -32,7 +32,7 @@ import { ChildComponent } from './child/child.component';
 })
 export class ScheduleComponent {
 
-  url = 'http://localhost:5200/schedules';
+  url = 'https://server-generador.onrender.com/schedules';
   data!: any[];
   selectedState: string | undefined;
   selectedStateCode: string | undefined;
